@@ -10,4 +10,4 @@ steps:
   - --trigger-http
   - --runtime=python39
   - --allow-unauthenticated
-  - --env-vars-file .env.yaml
+  - --env-vars-file=.env.yaml
