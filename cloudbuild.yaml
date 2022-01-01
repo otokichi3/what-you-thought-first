@@ -9,5 +9,5 @@ steps:
   - --source=.
   - --trigger-http
   - --runtime=python39
-  - --allow-unauthenticated`
+  - --allow-unauthenticated
   - --env-vars-file .env.yaml
