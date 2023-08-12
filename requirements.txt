@@ -1,0 +1,6 @@
+python-dotenv
+flask
+flask_cors
+requests
+functions-framework
+google-cloud-error-reporting

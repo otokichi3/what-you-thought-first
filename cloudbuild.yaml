@@ -1,0 +1,13 @@
+steps:
+- name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+  args:
+  - gcloud
+  - functions
+  - deploy
+  - send_thought
+  - --region=asia-northeast1
+  - --source=.
+  - --trigger-http
+  - --runtime=python39
+  - --allow-unauthenticated
+  - --env-vars-file=.env.yaml
