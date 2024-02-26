@@ -15,20 +15,10 @@ def send_thought(request=None):
     start_time = time.perf_counter()
     msg = '''
 ■仕事
-　・毎月20h以上残業
-　・Google認定トレーナー
-　・積ん読本アウトプット
-　・G3は目指さん
-　・侍は担当を一人に
+　・Hard Working
 
 ■プライベート
-　・大阪マラソンサブ４
-　・バドは試合出場
-　・隔月で読書
-　・10h/月は勉強
-　・子供（女）
-　・啓太を育てる
-　・変わらず楽しい家庭に
+　・Hard houseworking
     '''
     line_token = os.environ['LINE_TOKEN']
     bot = LINENotifyBot(access_token=line_token)
