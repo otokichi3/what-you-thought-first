@@ -1,7 +1,9 @@
 # what-you-thought-first
-Don't forget what you thought first in very beginning of the year
+年初に考えた目標を忘れないように LINE に通知します。
+Cloud Functions にデプロイして、Cloud Scheduler からの POST リクエストを契機に LINE 通知を実施します。
+Cloud Build からこのリポジトリを設定すると cloudbuild.yaml により CI/CD が行われます。
 
-# デプロイ
+# 直接デプロイ
 gcloud functions deploy send_thought`
  --runtime python39`
  --trigger-http`
